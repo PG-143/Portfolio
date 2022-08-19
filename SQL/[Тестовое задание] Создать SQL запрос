@@ -24,7 +24,7 @@ Null
 Запрос:
 
 SELECT table_A.stolbez_A, table_B.stolbez_B
-FROM table_A 
+FROM table_A, table_B
 INNER JOIN table_B
 ON table_A.ID = table_B.ID ;
 

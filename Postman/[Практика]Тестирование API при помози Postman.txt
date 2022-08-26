@@ -1,2 +1,0 @@
-Получение информации с ресурса при помощи API запросов:
-Ссылка на коллекцию: https://www.getpostman.com/collections/a79ae4b8db7afe2c4d23

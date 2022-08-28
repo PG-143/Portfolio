@@ -3,6 +3,7 @@
 ---
 
 A beginner QA Engineer from Moscow.
+
 That is small repository to illustrate some of the skills from my resume.
 
 ---

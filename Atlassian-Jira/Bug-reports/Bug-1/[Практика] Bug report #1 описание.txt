@@ -1,13 +1,13 @@
-#1 [Main page] ISO code for Belarusian rubles incorrect
+#1 [Main page] ISO code for Belarusian rubles is incorrect
 
 STR:
 #1 Open https://aliexpress.ru/
 #2 Change shipping country to Belarus or any other country
 #3 Change currency to Belarusian rubles
 
-Result: BYR ( Belarusian rubles )
+ACT: BYR ( Belarusian rubles )
 
-Expected result: BYN ( Belorussian rubles ), ISO code for Belorussian rubles - BYN
+EXP: BYN ( Belorussian rubles ), ISO code for Belorussian rubles - BYN
 
 Environment:
 Версия Chrome 104.0.5112.102

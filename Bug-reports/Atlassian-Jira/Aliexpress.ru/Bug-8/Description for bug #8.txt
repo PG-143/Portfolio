@@ -1,0 +1,9 @@
+#8 [Password restore] Recovery selection
+STR:
+#1 Open https://aliexpress.ru/ 
+#2 Click “Sign in” 
+#3 Click “забыли пароль” 
+#4 Insert valid ID or e-mail
+ACT: Name of the window is written in small letter "окно подтверждение по электронной почте", while other window is written in capital letter
+EXP: Name of both window begins with capital letter: "Окно подтверждение по электронной почте"
+Environment: Browser - Chrome 104.0.5112.102

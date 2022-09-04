@@ -1,0 +1,13 @@
+#10 [Password restore] After failing to fill all the requirements to create new password,  error appears in wrong translation
+STR
+#1 Open https://aliexpress.ru/ 
+#2 Click “Sign in” 
+#3 Click “забыли пароль” 
+#4 Insert valid ID or e-mail 
+#5 Choose password restore with e-mail 
+#6 Insert correct code to complete
+#7 Complete 1 of 3 or 2 of 3 reqritments to create a new password
+ACT: Error text "Программа установки не соответствуют требованиям, пожалуйста, переустановите" demands corrections
+EXP: "пароль не соответствуют требованиям, пожалуйста, изменинте его"
+Environment:
+Browser - Chrome 104.0.5112.102

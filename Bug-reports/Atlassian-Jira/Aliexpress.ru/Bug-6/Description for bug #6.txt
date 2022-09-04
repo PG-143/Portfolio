@@ -1,15 +1,11 @@
-#2 [Main page] Heavy restriction on creating account with shipping set to country associated with Russia (English launguage)
-
+#6 [Main page] Heavy restriction on creating account or logging in with shipping set to country associated with Russia (English launguage)
 STR:
 #1 Open https://aliexpress.ru/
 #2 Change shipping country to any other associated with Russia, for example: Armenia
 (English wil be selected automated)
 #3 Press “Join” or “Регистрация”
-
 ACT: Russian registration window appears, country calling code sets to +7, can’t be changed manually, it’s not possible to complete registration without Russian number
-
 EXP: International registration window appears, where country code can be changed to any country manually.
-
 Environment:
 Chrome 104.0.5112.102
 Win 10 64-bit

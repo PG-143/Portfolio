@@ -1,0 +1,10 @@
+#7 [Password restore][Mainpage] No characters limit in e-mail form
+STR
+#1 Open https://aliexpress.ru/ 
+#2 Click “Sign in”
+#3 Insert any amount of characters in the entry field, for example 20 000
+ACT: No characters limit
+EXP: Characters limit sets at 100, for example
+Environment:
+Browser - Chrome 104.0.5112.102
+Comment: There are the same issue with all the entry fields with which user can interact, except 6 numbers field for password restore

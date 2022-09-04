@@ -1,0 +1,12 @@
+#5 [Password restore] Button "Войти" redirects to page in Russian for Russia and Russia associated countries with EN language set
+STR:
+#1 Open https://aliexpress.ru/
+#2 Click “Sign in” 
+#3 Click “забыли пароль”
+#4 Insert valid login
+#5 Click “войти”
+ACT: Page is opened in Russian
+EXP: Page is opened in English
+Environment:
+Browser - Chrome 104.0.5112.102
+Mail service - Gmail

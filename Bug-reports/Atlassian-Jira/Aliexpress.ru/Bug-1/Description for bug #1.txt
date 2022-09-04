@@ -1,0 +1,12 @@
+#1 [Password restore] Russian localization in restore code window
+STR:
+#1 Open https://aliexpress.ru/
+#2 Click “Sign in” 
+#3 Click “забыли пароль”
+#4 Insert valid login
+#5 Choose “подтверждение по электронной почте”
+#6 Input invalid code and click “Нажмите. чтобы получить проверочный код” multiple times until getting limit error.
+ACT: Incorrect translation to Russian “Слишком часто Получайте код проверки. Повторите попытку позже”
+EXP: Correct translation to Russian “Вы слишком часто получаете код проверки. Повторите попытку позже”
+Environment:
+Browser - Chrome 104.0.5112.102

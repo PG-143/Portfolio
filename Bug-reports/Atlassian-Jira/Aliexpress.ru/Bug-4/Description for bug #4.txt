@@ -1,0 +1,10 @@
+#4 [Password restore] Window doesn't translate to English for Russia and Russian associated countries with language set to English
+STR:
+#1 Open https://aliexpress.ru/ 
+#2 Change settings to English (could change shipping country but not necessary) 
+#3 Click “Sign in” 
+#4 Click “забыли пароль”
+ACT: Page is opened in Russian
+EXP: Page is opened in English
+Environment:
+Browser - Chrome 104.0.5112.102

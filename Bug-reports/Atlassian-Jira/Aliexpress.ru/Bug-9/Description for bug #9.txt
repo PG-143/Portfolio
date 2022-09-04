@@ -1,0 +1,12 @@
+#9 [Password restore] Verification code
+STR:
+#1 Open https://aliexpress.ru/ 
+#2 Click “Sign in” 
+#3 Click “забыли пароль” 
+#4 Insert valid ID or e-mail 
+#5 Choose password restore with e-mail 
+#6 Put any character to the filed with ctrl+v, for example: 1qй”!№;%
+ACT: Possible to put any characters to field except numbers
+EXP: Impossible to put any characters to field except numbers
+Environment:
+Browser - Chrome 104.0.5112.102

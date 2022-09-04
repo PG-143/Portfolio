@@ -1,0 +1,13 @@
+#2 [Password restore] After inserting the valid ID or e-mail, message comes to mail in Chinese, not Russian
+STR:
+#1 Open https://aliexpress.ru/ 
+#2 Click “Sign in” 
+#3 Click “забыли пароль” 
+#4 Insert valid ID or e-mail 
+#5 Choose “подтверждение по электронной почте”
+ #6 Check mail for message
+ACT: Message in Chinese language
+EXP: Message in Russian language
+Environment:
+Browser - Chrome 104.0.5112.102
+Mail service - Gmail

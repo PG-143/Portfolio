@@ -1,0 +1,12 @@
+#3 [Password restore] after inserting less nubmer on verification code filed, wrong error message appears
+STR:
+#1 Open https://aliexpress.ru/
+#2 Click “Sign in” 
+#3 Click “забыли пароль”
+#4 Insert valid login
+#5 Choose “подтверждение по электронной почте”
+#6 Input invalid code (less then 6 numbers)
+ACT: Incorrect translation to Russian: non-existent word, system asks to not put letters: "Проверочный кодДабПожалуйста, введите только цифры"
+EXP: Correct translation to Russian. System asks for 6 numbers: "Проверочный код недействителен, пожалуйста, введите 6 цифр”
+Environment:
+Browser - Chrome 104.0.5112.102

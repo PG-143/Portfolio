@@ -20,8 +20,6 @@ That is a small repository to illustrate some of the skills from my CV.
     <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="30" height="30"/>
     <a href="https://hh.ru/resume/bca06fa0ff0b1f8a910039ed1f5447424e6d55">
     <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/HeadHunter_logo.png" alt="hh.ru" width="30" height="30"/>
-![image](https://github.com/PG-143/Portfolio/assets/110214241/626629da-7488-43d8-bd1a-de4814d14364)
-
 
 
 
